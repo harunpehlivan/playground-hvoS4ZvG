@@ -5,13 +5,13 @@ Chaque variable a  un nom fixe et une valeur variable
 
 En  programmation informatique, une **affectation**, ou assignation, est une structure qui permet d'attribuer une valeur à une variable.
 
-`
+``
 //par exemple en java
 // declaration de a comme entier
 int a ;
 //affectation de a avec la valeur 3
 a = 3;
-`
+``
 
 
 #Exerice 1.1 
@@ -22,7 +22,7 @@ import java.io.*;
 
 import java.util.*;
 
-}
+
 
 public class Main {
 
