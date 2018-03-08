@@ -93,7 +93,7 @@ public class Main {
 
 # Exercice 1.3
 quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
-```java
+```java runnable
 // { autofold
 import java.io.*;
 
