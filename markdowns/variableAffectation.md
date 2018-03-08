@@ -170,9 +170,10 @@ public class Main {
 
 
 # Exercice 1.5 
-@[Ecrire un programme qui calcule la somme de deux nombres.
+Ecrire un programme qui calcule la somme de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
-]({"stubs": ["src/main/java/com/yourself/exo1_5.java"], "command": "com.yourself.exo1_5Test#test"})
+
+@[1.5]({"stubs": ["src/main/java/com/yourself/exo1_5.java"], "command": "com.yourself.exo1_5Test#test"})
 
 # Exercice 1.6 
 Ecrire un programme qui calcule la différence de deux nombres.
