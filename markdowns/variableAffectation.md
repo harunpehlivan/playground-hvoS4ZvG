@@ -54,8 +54,8 @@ public class Main {
 
 
 #Exercice 1.2
-quelles seront les valeurs des variables a, b et c, après l’exécution de ces  instructions 
-```java runnable
+quelles seront les valeurs des variables a et b après l’exécution de ces  instructions 
+```java 
 // { autofold
 import java.io.*;
 
@@ -76,7 +76,6 @@ public class Main {
     b=a+4;
     a=a+1;
     b=a-4;
-    System.out.println(a +" " + b);
 
        
    // { autofold
@@ -90,3 +89,42 @@ public class Main {
 -[x] a->6 b->2 
 -[ ] a->5 b->3
 -[ ] a->0 b->0
+
+
+#Exercice 1.3
+quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
+```java runnable
+// { autofold
+import java.io.*;
+
+import java.util.*;
+
+
+
+public class Main {
+
+    public static void main (String[] args)  
+    {
+        int a;
+        int b;
+        int c;
+        
+    //}  
+    a=5 ;
+    b=7 ;
+    a=b ;
+    b=a;
+    
+ System.out.println(a +" " + b);
+       
+   // { autofold
+    }
+
+} //}
+```
+
+?[Résultat ?]
+-[ ] a->5 b->7  
+-[x] a->7 b->7 
+-[ ] a->5 b->5
+-[ ] a->7 b->5 
