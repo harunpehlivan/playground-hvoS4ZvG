@@ -53,7 +53,7 @@ public class Main {
 -[ ] a->2 b->3 c->2
 
 
-#Exercice 1.2
+# Exercice 1.2
 quelles seront les valeurs des variables a et b après l’exécution de ces  instructions 
 ```java 
 // { autofold
@@ -91,9 +91,9 @@ public class Main {
 -[ ] a->0 b->0
 
 
-#Exercice 1.3
+# Exercice 1.3
 quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
-```java runnable
+```java
 // { autofold
 import java.io.*;
 
@@ -115,7 +115,6 @@ public class Main {
     a=b ;
     b=a;
     
- System.out.println(a +" " + b);
        
    // { autofold
     }
@@ -128,3 +127,49 @@ public class Main {
 -[x] a->7 b->7 
 -[ ] a->5 b->5
 -[ ] a->7 b->5 
+
+
+# Exercice 1.4
+quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
+```java
+// { autofold
+import java.io.*;
+
+import java.util.*;
+
+
+
+public class Main {
+
+    public static void main (String[] args)  
+    {
+        int a;
+        int b;
+        int c;
+        
+    //}  
+    a=5 ;
+    b=7 ;
+    b=a ;
+    a=b;
+    
+       
+   // { autofold
+    }
+
+} //}
+```
+
+?[Résultat ?]
+-[ ] a->5 b->7  
+-[ ] a->7 b->7 
+-[x] a->5 b->5
+-[ ] a->7 b->5 
+
+
+# Exercice 1.4
+Ecrire le code qui pour  trois variables a, b et c . Ce programme permutte leurs valeurs, de sorte que la valeur de b passe dans a, celle de c dans b et celle de a dans c. On utilisera une (et une seule) variable supplémentaire nommée d.
+
+
+
+
