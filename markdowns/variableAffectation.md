@@ -16,7 +16,7 @@ a = 3;
 
 # Exerice 1.1 
 quelles seront les valeurs des variables a, b et c, après l’exécution de ces  instructions 
-```java runnable
+```java 
 // { autofold
 import java.io.*;
 
@@ -86,7 +86,7 @@ public class Main {
 ```
 
 ?[Résultat ?]
--[ ] a->1 b->1 c->1 
--[x] a->2 b->3 c->1
--[ ] a->1 b->3 c->2
--[ ] a->2 b->3 c->2
+-[ ] a->1 b->1  
+-[x] a->6 b->2 
+-[ ] a->5 b->3
+-[ ] a->0 b->0
