@@ -1,4 +1,4 @@
-#1 - Variable et affectation 
+# 1 - Variable et affectation 
 
 En programmation, une **variable** est un nom qui sert à repérer un emplacement donné de la mémoire centrale.
 Chaque variable a  un nom fixe et une valeur variable 
@@ -14,7 +14,7 @@ a = 3;
 ```
 
 
-#Exerice 1.1 
+# Exerice 1.1 
 quelles seront les valeurs des variables a, b et c, après l’exécution de ces  instructions 
 ```java runnable
 // { autofold
