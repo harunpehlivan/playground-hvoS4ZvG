@@ -13,7 +13,7 @@ public static void myexec() {
 
 //a
 //b
-res = 0;
+resultat = 0;
 
 
 //{ autofold
