@@ -167,8 +167,22 @@ public class Main {
 -[ ] a->7 b->5 
 
 
-# Exercice 1.4
-Ecrire le code qui pour  trois variables a, b et c . Ce programme permutte leurs valeurs, de sorte que la valeur de b passe dans a, celle de c dans b et celle de a dans c. On utilisera une (et une seule) variable supplémentaire nommée d.
+
+
+# Exercice 1.5 
+Ecrire un programme qui calcule la somme de deux nombres.
+les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
+
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/exo1_5.java"], "command": "com.yourself.exo1_5Test#test"})
+
+# Exercice 1.6 
+Ecrire un programme qui calcule la différence de deux nombres.
+les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
+
+
+# Exercice 1.7 
+Ecrire un programme qui calcule le reste de la division de deux nombres.
+les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
 
 
