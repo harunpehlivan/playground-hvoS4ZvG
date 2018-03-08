@@ -16,7 +16,7 @@ a = 3;
 
 # Exerice 1.1 
 quelles seront les valeurs des variables a, b et c, après l’exécution de ces  instructions 
-```java 
+```java runnable
 // { autofold
 import java.io.*;
 
@@ -55,7 +55,7 @@ public class Main {
 
 # Exercice 1.2
 quelles seront les valeurs des variables a et b après l’exécution de ces  instructions 
-```java 
+```java runnable
 // { autofold
 import java.io.*;
 
@@ -131,7 +131,7 @@ public class Main {
 
 # Exercice 1.4
 quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
-```java
+```java runnable
 // { autofold
 import java.io.*;
 
