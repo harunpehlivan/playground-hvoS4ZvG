@@ -39,7 +39,7 @@ public class Main {
     a=2;
     c=b-a;
 
-        System.out.println("Hello World!");
+       
    // { autofold
     }
 
@@ -52,3 +52,41 @@ public class Main {
 -[ ] a->1 b->3 c->2
 -[ ] a->2 b->3 c->2
 
+
+#Exercice 1.2
+quelles seront les valeurs des variables a, b et c, après l’exécution de ces  instructions 
+```java runnable
+// { autofold
+import java.io.*;
+
+import java.util.*;
+
+
+
+public class Main {
+
+    public static void main (String[] args)  
+    {
+        int a;
+        int b;
+        int c;
+        
+    //}  
+    a=5;
+    b=a+4;
+    a=a+1;
+    b=a-4;
+    System.out.println(a +" " + b);
+
+       
+   // { autofold
+    }
+
+} //}
+```
+
+?[Résultat ?]
+-[ ] a->1 b->1 c->1 
+-[x] a->2 b->3 c->1
+-[ ] a->1 b->3 c->2
+-[ ] a->2 b->3 c->2
