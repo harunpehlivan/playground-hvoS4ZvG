@@ -15,12 +15,12 @@ public class exo1_5Test {
             exo1_5.a = 2 ;
             exo1_5.b = 3 ;
             exo1_5.myexec();
-			Assert.assertEquals("Calcule de 2 + 3 ", 5, exo1_5.resultat);
+			Assert.assertEquals("Calcul de 2 + 3 ", 5, exo1_5.resultat);
             
             exo1_5.a = 7 ;
             exo1_5.b = 2 ;
             exo1_5.myexec();
-            Assert.assertEquals("Calcule de 7 + 2 ", 9 , exo1_5.resultat);
+            Assert.assertEquals("Calcul de 7 + 2 ", 9 , exo1_5.resultat);
 			
 		} catch (AssertionError ae) {
 			success(false);
