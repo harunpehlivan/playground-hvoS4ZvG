@@ -12,8 +12,8 @@ public class exo1_7Test {
 	@Test
 	public void test() throws FileNotFoundException {
 		try {
-            exo1_7.a = 2 ;
-			exo1_7.b = 3 ;
+            exo1_7.a = 3 ;
+			exo1_7.b = 2 ;
 			exo1_7.myexec();
 			Assert.assertEquals("Calcul du reste  de 3/2 ", 1, exo1_7.resultat);
 
