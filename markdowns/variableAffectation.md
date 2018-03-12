@@ -131,7 +131,7 @@ public class Main {
 
 # Exercice 1.4
 quelles seront les valeurs des variables a et b  après l’exécution de ces  instructions 
-```java runnable
+```java runnable    
 // { autofold
 import java.io.*;
 
@@ -173,17 +173,19 @@ public class Main {
 Ecrire un programme qui calcule la somme de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
-@[1.5]({"stubs": ["src/main/java/com/yourself/exo1_5.java"], "command": "com.yourself.exo1_5Test#test"})
+@[1.5]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_5.java"], "command": "com.yourself.exo1_5Test#test"})
 
 # Exercice 1.6 
 Ecrire un programme qui calcule la différence de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
+@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_5.java"], "command": "com.yourself.exo1_6Test#test"})
 
 # Exercice 1.7 
 Ecrire un programme qui calcule le reste de la division de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
+@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_5.java"], "command": "com.yourself.exo1_7Test#test"})
 
 
 

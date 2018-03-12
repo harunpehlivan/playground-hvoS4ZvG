@@ -8,6 +8,9 @@ plan:
   - title: Variables et affectation
 #  - title: Another Page
     statement: markdowns/variableAffectation.md
+  - title: Exercices 
+#  - title: Another Page
+    statement: markdowns/exercices_2.md
 
 
 # Settings for your programming projects and the associated Docker images

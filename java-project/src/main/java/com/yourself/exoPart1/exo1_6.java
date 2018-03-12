@@ -1,9 +1,7 @@
 // { autofold
-package com.yourself;
+package com.yourself.exoPart1;
 
-import java.util.Arrays;
-
-public class exo1_5 {
+public class exo1_6 {
 
 public static int a=0;
 public  static int b=0;

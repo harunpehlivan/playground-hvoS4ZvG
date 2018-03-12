@@ -1,4 +1,4 @@
-package com.yourself;
+package com.yourself.exoPart1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
