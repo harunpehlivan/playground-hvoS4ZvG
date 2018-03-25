@@ -1,0 +1,24 @@
+# Les String et StringBuffer 
+Ecrire le code qui permet de coder les fonctions static qui renverse les caractères d'une chaine.
+
+
+code de Test 
+```
+    @Test
+    public void testReverse() {
+        String ch = "alloc";
+        Assert.assertEquals("colla", testString.monReverse(ch));
+        Assert.assertEquals("alloc", ch);
+
+    }
+    @Test
+    public void testReverseBuffer(){
+
+        StringBuffer ch2 = new StringBuffer("alloc");
+        testString.monReverse2(ch2);
+        Assert.assertTrue(ch2.toString().compareTo("colla")==0);
+
+
+
+    }
+```

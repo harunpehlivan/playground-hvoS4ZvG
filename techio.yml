@@ -3,16 +3,16 @@ title : Java et Algorithmique - Les bases
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-  - title: Variables et affectation
-    statement: markdowns/variableAffectation.md
-  - title: Exercices 
-    statement: markdowns/exercices_2.md
-  - title: TP robot
-    statement:  markdowns/projetRobot.md
-  - title: Exercice Thread
-    statement:  markdowns/threadExo.md
+  #- title: Welcome # Set the page title (only displayed if your contribution has several pages)
+  #  statement: markdowns/welcome.md # Set the file path to the page content
+ # - title: Variables et affectation
+#  statement: markdowns/variableAffectation.md
+ # - title: Exercices 
+ #   statement: markdowns/exercices_2.md
+ # - title: TP robot
+ #   statement:  markdowns/projetRobot.md
+ # - title: Exercice Thread
+ #   statement:  markdowns/threadExo.md
 
 
 # Settings for your programming projects and the associated Docker images
