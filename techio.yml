@@ -8,7 +8,7 @@ plan:
 - title: Variables et affectation
   statement: markdowns/variableAffectation.md
 - title: Exercices J1
-    statement: markdowns/exercices_2.md
+  statement: markdowns/exercices_2.md
  # - title: TP robot
  #   statement:  markdowns/projetRobot.md
  # - title: Exercice Thread
