@@ -5,9 +5,9 @@ title : Java et Algorithmique - Les bases
 plan:
   #- title: Welcome # Set the page title (only displayed if your contribution has several pages)
   #  statement: markdowns/welcome.md # Set the file path to the page content
- - title: Variables et affectation
+- title: Variables et affectation
   statement: markdowns/variableAffectation.md
-  - title: Exercices J1
+- title: Exercices J1
     statement: markdowns/exercices_2.md
  # - title: TP robot
  #   statement:  markdowns/projetRobot.md
