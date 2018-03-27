@@ -16,5 +16,6 @@ Par exemple pour montant  = 325
 resultat = "3 0 1 0 2 1"
 
 **Attention aux type de resultat qui est un String**
+
 **Ne pas Utiliser de boucle -> NO FOR NO WHILE**
 @[2.2]({"stubs": ["src/main/java/com/yourself/exoPart1/exo2_2.java"], "command": "com.yourself.exoPart1.exo2_2Test#test"})

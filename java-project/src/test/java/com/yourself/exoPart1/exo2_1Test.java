@@ -11,18 +11,24 @@ import java.io.FileNotFoundException;
 //a - 1 -> 2
 //b - 2 -> 3
 //c - 3 -> 1
+    /*
+    int tmp = a;
+    a = b;
+    b = c;
+    c = tmp;
+     */
 public class exo2_1Test {
     @Test
     public void test() throws FileNotFoundException {
         try {
-
+            exo2_1.myexec();
             Assert.assertEquals("a 2 ", 2, exo2_1.a);
             Assert.assertEquals("b 3 ", 3, exo2_1.b);
             Assert.assertEquals("c 1 ", 1, exo2_1.c);
             exo2_1.a = 2;
             exo2_1.b = 4;
             exo2_1.c = 6;
-
+            exo2_1.myexec();
             Assert.assertEquals("a ", 4, exo2_1.a);
             Assert.assertEquals("b ", 6, exo2_1.b);
             Assert.assertEquals("c ", 2, exo2_1.c);
