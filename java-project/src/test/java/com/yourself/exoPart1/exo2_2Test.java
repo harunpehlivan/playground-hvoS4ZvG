@@ -16,7 +16,7 @@ public class exo2_2Test {
     @Test
     public void test() throws FileNotFoundException {
         try {
-            boolean hasFor = libUtil.existsInFile("for",new File("exo2_2.java"));
+            boolean hasFor = libUtil.existsInFile("for",new File("./java-project/src/main/java/com/yourself/exo2_2.java"));
            // Assert.assertEquals("pour 325", "3 0 1 0 2 1", exo2_2.calc(325));
            // Assert.assertEquals("pour 0", "0 0 0 0 0 0", exo2_2.calc(325));
 
