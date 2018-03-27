@@ -16,10 +16,13 @@ public class exo2_2Test {
     @Test
     public void test() throws FileNotFoundException {
         try {
-            System.out.println("Working Directory = " +
-                    System.getProperty("user.dir"));
+          //  System.out.println("Working Directory = " +
+            //        System.getProperty("user.dir"));
             boolean hasFor = libUtil.existsInFile("for",new File("src/main/java/com/yourself/exoPart1/exo2_2.java"));
-           // Assert.assertEquals("pour 325", "3 0 1 0 2 1", exo2_2.calc(325));
+            Assert.assertEquals("NO FOR",hasFor,false);
+            boolean hasWhile = libUtil.existsInFile("while",new File("src/main/java/com/yourself/exoPart1/exo2_2.java"));
+            Assert.assertEquals("NO While",hasWhile,false);
+            // Assert.assertEquals("pour 325", "3 0 1 0 2 1", exo2_2.calc(325));
            // Assert.assertEquals("pour 0", "0 0 0 0 0 0", exo2_2.calc(325));
 
         } catch (AssertionError ae) {
