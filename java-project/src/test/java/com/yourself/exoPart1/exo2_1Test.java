@@ -17,8 +17,15 @@ public class exo2_1Test {
         try {
 
             Assert.assertEquals("a ", 2, exo2_1.a);
-            Assert.assertEquals("b ", 3, exo2_1.a);
-            Assert.assertEquals("c ", 1, exo2_1.a);
+            Assert.assertEquals("b ", 3, exo2_1.b);
+            Assert.assertEquals("c ", 1, exo2_1.c);
+            exo2_1.a = 2;
+            exo2_1.b = 4;
+            exo2_1.c = 6;
+
+            Assert.assertEquals("a ", 4, exo2_1.a);
+            Assert.assertEquals("b ", 6, exo2_1.b);
+            Assert.assertEquals("c ", 1, exo2_1.c);
 
         } catch (AssertionError ae) {
             success(false);
