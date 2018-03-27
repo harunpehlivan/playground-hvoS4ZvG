@@ -7,7 +7,7 @@ plan:
   #  statement: markdowns/welcome.md # Set the file path to the page content
 - title: Variables et affectation
   statement: markdowns/variableAffectation.md
-- title: Exercices J1
+- title: Exercices p2
   statement: markdowns/exercices_2.md
  # - title: TP robot
  #   statement:  markdowns/projetRobot.md
