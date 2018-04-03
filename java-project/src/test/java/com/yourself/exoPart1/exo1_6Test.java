@@ -12,14 +12,16 @@ public class exo1_6Test {
 	@Test
 	public void test() throws FileNotFoundException {
 		try {
-            exo1_5.a = 2 ;
-            exo1_5.b = 3 ;
-            exo1_5.myexec();
+            exo1_6.a = 2 ;
+            exo1_6.b = 3 ;
+
+            exo1_6.myexec();
 			Assert.assertEquals("Calcule de 3 - 2 ", 1, exo1_6.resultat);
             
-            exo1_5.a = 7 ;
-            exo1_5.b = 2 ;
-            exo1_5.myexec();
+            exo1_6.a = 7 ;
+            exo1_6.b = 2 ;
+            
+            exo1_6.myexec();
             Assert.assertEquals("Calcule de 7 - 2 ", 5 , exo1_6.resultat);
 			
 		} catch (AssertionError ae) {
