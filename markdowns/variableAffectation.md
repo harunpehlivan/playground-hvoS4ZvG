@@ -179,13 +179,13 @@ les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat
 Ecrire un programme qui calcule la différence de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
-@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_5.java"], "command": "com.yourself.exoPart1.exo1_6Test#test"})
+@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_6.java"], "command": "com.yourself.exoPart1.exo1_6Test#test"})
 
 # Exercice 1.7 
 Ecrire un programme qui calcule le reste de la division de deux nombres.
 les valeurs sont renseignées dans a et b. Le résultat est rangé dans resultat.
 
-@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_5.java"], "command": "com.yourself.exoPart1.exo1_7Test#test"})
+@[1.6]({"stubs": ["src/main/java/com/yourself/exoPart1/exo1_7.java"], "command": "com.yourself.exoPart1.exo1_7Test#test"})
 
 
 
