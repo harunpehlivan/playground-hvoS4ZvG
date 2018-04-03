@@ -9,6 +9,8 @@ plan:
   statement: markdowns/variableAffectation.md
 - title: Exercices p2
   statement: markdowns/exercices_2.md
+- title: Exercices p3
+  statement: markdowns/exercices_3.md
  # - title: TP robot
  #   statement:  markdowns/projetRobot.md
  # - title: Exercice Thread
