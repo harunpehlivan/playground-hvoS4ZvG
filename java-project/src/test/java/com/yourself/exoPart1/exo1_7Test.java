@@ -17,8 +17,8 @@ public class exo1_7Test {
 			exo1_7.myexec();
 			Assert.assertEquals("Calcul du reste  de 3/2 ", 1, exo1_7.resultat);
 
-			exo1_7.a = 7 ;
-			exo1_7.b = 2 ;
+			exo1_7.a = 8 ;
+			exo1_7.b = 3 ;
 			exo1_7.myexec();
             Assert.assertEquals("Calcul du reste  de 8/3 ", 2 , exo1_7.resultat);
 			
