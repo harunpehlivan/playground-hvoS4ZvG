@@ -12,7 +12,7 @@ Cette classe comprendra des méthodes dont :
 
 – une méthode public void toString(), qui calcule la représentaiotn de  l’environnement dans la console.
 par exemple:
-```java runnable 
+```java  
 Monde m = new Monde(2,2);
 System.out.println(m.toString())
 
