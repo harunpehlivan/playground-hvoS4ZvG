@@ -29,4 +29,5 @@ Supposons qu'un robot commence à {7, 3}
 en faisant face au nord. Ensuite, ce flux d'instructions
  devrait le laisser à {9, 4} face à l'ouest.
  
+ 
 @[3.2]({"stubs": ["src/main/java/com/yourself/exoPart1/exo2_4.java"], "command": "com.yourself.projetRobot.robotTest#testMonde"})
