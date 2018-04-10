@@ -20,8 +20,8 @@ public class robotTest {
             GridPosition  expectedGridPosition = new GridPosition(0, 0);
             Robot robot = new Robot(initialGridPosition, initialOrientation);
 
-            Assert.assertEquals(robot.getOrientation(), initialOrientation);
-            Assert.assertEquals(robot.getGridPosition(), initialGridPosition);
+            Assert.assertEquals( initialOrientation,robot.getOrientation());
+            Assert.assertEquals( initialGridPosition,robot.getGridPosition());
 
 
 
