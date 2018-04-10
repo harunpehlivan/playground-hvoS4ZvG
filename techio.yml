@@ -11,9 +11,9 @@ plan:
   statement: markdowns/exercices_2.md
 - title: Exercices p3
   statement: markdowns/exercices_3.md
-- title: exerice  p4  POO
+- title: Exercices  p4  POO
   statement:  markdowns/POO.md
-- title: exercice  p5 robot
+- title: Exercices  p5 robot
   statement:  markdowns/projetRobot.md
  # - title: Exercice Thread
  #   statement:  markdowns/threadExo.md

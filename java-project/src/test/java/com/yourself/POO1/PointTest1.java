@@ -1,5 +1,6 @@
 package com.yourself.POO1;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.FileNotFoundException;
@@ -12,6 +13,8 @@ public class PointTest1 {
     public void test() throws FileNotFoundException {
         try {
             Point p = new Point('p',3.0);
+            Assert.assertEquals("p",p.getNom());
+            Assert.assertEquals(3.0,p.getValue());
 
         } catch (AssertionError ae) {
             success(false);
