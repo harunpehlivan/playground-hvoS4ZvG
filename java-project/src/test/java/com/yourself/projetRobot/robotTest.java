@@ -13,31 +13,233 @@ public class robotTest {
     @Test
     public void testMonde() throws FileNotFoundException {
         try {
+            Orientation initialOrientation = Orientation.NORTH;
+            Orientation expectedOrientation = Orientation.NORTH;
+
+            GridPosition initialGridPosition = new GridPosition(0, 0);
+            GridPosition  expectedGridPosition = new GridPosition(0, 0);
+            Robot robot = new Robot(initialGridPosition, initialOrientation);
+
+            Assert.assertEquals(robot.getOrientation(), initialOrientation);
+            Assert.assertEquals(robot.getGridPosition(), initialGridPosition);
 
 
 
 
 
-            Monde m = new Monde(40,50);
-            Assert.assertEquals("Dimension du monde Longueur  ", 40, m.getLongueur());
-            Assert.assertEquals("Dimension du monde Largeur  ", 50, m.getLargeur());
+           {
+                initialGridPosition = new GridPosition(-1, -1);
+                initialOrientation = Orientation.SOUTH;
+                robot = new Robot(initialGridPosition, initialOrientation);
 
-            m = new Monde();
-
-            Assert.assertEquals("Dimension du monde Longueur  ", 0, m.getLongueur());
-            Assert.assertEquals("Dimension du monde Largeur  ", 0, m.getLargeur());
-
-             m = new Monde();
-            m.setLongueur(20);
-            m.setLargeur(30);
-            m.init();
-            Assert.assertEquals("Dimension du monde Longueur  ", 20, m.getLongueur());
-            Assert.assertEquals("Dimension du monde Largeur  ", 30, m.getLargeur());
+                Assert.assertEquals(robot.getOrientation(), initialOrientation);
+                Assert.assertEquals(robot.getGridPosition(), initialGridPosition);
+            }
 
 
+            {
+                initialGridPosition = new GridPosition(0, 0);
+                robot = new Robot(initialGridPosition, Orientation.NORTH);
 
-            m = new Monde(2,2);
-            Assert.assertEquals("Monde Vide  ", "-1 -1 \n-1 -1 \n", m.toString());
+                robot.turnRight();
+
+                Assert.assertEquals(robot.getGridPosition(), initialGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);
+
+                robot.turnRight();
+
+                expectedOrientation = Orientation.EAST;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.EAST);
+
+                robot.turnRight();
+
+                expectedOrientation = Orientation.SOUTH;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.SOUTH);
+
+                robot.turnRight();
+
+                expectedOrientation = Orientation.WEST;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.WEST);
+
+                robot.turnRight();
+
+                expectedOrientation = Orientation.NORTH;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                initialGridPosition = new GridPosition(0, 0);
+                robot = new Robot(initialGridPosition, Orientation.NORTH);
+
+                robot.turnLeft();
+
+                Assert.assertEquals(robot.getGridPosition(), initialGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);
+
+                robot.turnLeft();
+
+                expectedOrientation = Orientation.WEST;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.WEST);
+
+                robot.turnLeft();
+
+                expectedOrientation = Orientation.SOUTH;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.SOUTH);
+
+                robot.turnLeft();
+
+                expectedOrientation = Orientation.EAST;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.EAST);
+
+                robot.turnLeft();
+
+                expectedOrientation = Orientation.NORTH;
+
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                initialOrientation = Orientation.NORTH;
+                robot = new Robot(new GridPosition(0, 0), initialOrientation);
+
+                robot.advance();
+
+                Assert.assertEquals(robot.getOrientation(), initialOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);
+
+                robot.advance();
+
+                expectedGridPosition = new GridPosition(0, 1);
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.SOUTH);
+
+                robot.advance();
+
+                expectedGridPosition = new GridPosition(0, -1);
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.EAST);
+
+                robot.advance();
+
+                expectedGridPosition = new GridPosition(1, 0);
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.WEST);
+
+                robot.advance();
+
+                expectedGridPosition = new GridPosition(-1, 0);
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(0, 0), Orientation.NORTH);
+
+                robot.simulate("LAAARALA");
+
+                expectedGridPosition = new GridPosition(-4, 1);
+                expectedOrientation = Orientation.WEST;
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(2, -7), Orientation.EAST);
+
+                robot.simulate("RRAAAAALA");
+
+                expectedGridPosition = new GridPosition(-3, -8);
+                expectedOrientation = Orientation.SOUTH;
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+            {
+                robot = new Robot(new GridPosition(8, 4), Orientation.SOUTH);
+
+                robot.simulate("LAAARRRALLLL");
+
+                expectedGridPosition = new GridPosition(11, 5);
+                expectedOrientation = Orientation.NORTH;
+
+                Assert.assertEquals(robot.getGridPosition(), expectedGridPosition);
+                Assert.assertEquals(robot.getOrientation(), expectedOrientation);
+            }
+
+
+
+
 
 
         } catch (AssertionError ae) {
