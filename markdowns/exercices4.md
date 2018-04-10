@@ -1,6 +1,6 @@
 
 
-# Exercice 2.2
+# Exercice 5
 Robot simulateur
 Écris un simulateur de robot.
 
