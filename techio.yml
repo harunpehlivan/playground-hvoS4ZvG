@@ -19,7 +19,7 @@ plan:
  #   statement:  markdowns/threadExo.md
 
 
- 
+
 # Settings for your programming projects and the associated Docker images
 projects:
   java:
@@ -29,6 +29,6 @@ projects:
     # @[Code Editor Title]({"stubs": ["EditorFile1.java", "EditorFile2.java", ...], "command": "MyJUnitClass#myMethod"})
     # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
     runner: 
-      #openjdk-8-alpine
-      techio/java-maven3-junit4-runner:1.1.3-java-8
+      openjdk-8-alpine
+      #techio/java-maven3-junit4-runner:1.1.3-java-8
      
