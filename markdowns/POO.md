@@ -43,7 +43,7 @@ ghost.getColor(); //=> "white" or "yellow" or "purple" or "red"
 
 # Exercice 4.5
 Two Fer
-Two-fer or  ou 2-fer est court pour deux pour un. Un pour vous et un pour moi.
+Two-fer  est  un pour MACHIN et un  pour vous ou  un pour vous et un pour moi.
 
 1
 "Un pour X, un pour moi."
