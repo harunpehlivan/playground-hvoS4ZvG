@@ -31,4 +31,4 @@ déjà occupée par un robot.
 – une méthode public void libere(int X, int Y), prenant comme paramètres une coordonnée X et une co- ordonnée Y de l’environnement, qui libérera la case correspondante (en attribuant la valeur -1).
 
 – une méthode public void occupe(int X, int Y, int num), prenant comme paramètres une coordonnée X et une coordonnée Y de l’environnement, ainsi qu’un numéro de robot, qui indiquera que la case est occupée par  ce robot.
-
+@[5]({"stubs": ["src/main/java/com/yourself/projetRobot/GridPosition.java","src/main/java/com/yourself/projetRobot/Monde.java","src/main/java/com/yourself/projetRobot/Orientation.java",,"src/main/java/com/yourself/projetRobot/Robot.java",], "command": "com.yourself.projetRobot. robotTest#testMonde"})
