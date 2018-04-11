@@ -17,12 +17,16 @@ Créer une classe Ball.
 Les objets boule doivent accepter un argument pour "type de boule" lorsqu'ils sont instanciés.
 
 Si aucun argument n'est donné, les objets ball devraient instancier avec un "type de boule" de "regular".
-
+```
 ball1 = new Ball();
+
 ball2 = new Ball("super");
 
 ball1.ballType     //=> "regular"
+
+
 ball2.ballType     //=> "super"
+```
 
 
 @[4.3]({"stubs": ["src/main/java/com/yourself/POO1/Ball.java"], "command": "com.yourself.POO1.BallTest#test"})
