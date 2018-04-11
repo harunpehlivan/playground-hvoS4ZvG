@@ -11,7 +11,7 @@ Par exemple: entrée: sortie "cool": "looc"
 public class ReverseStringTest {
 
     @Test
-    public void testAnEmptyString() {
+    public void test() {
         assertEquals("", new ReverseString().reverse(""));
 
         assertEquals("tobor", new ReverseString().reverse("robot"));
