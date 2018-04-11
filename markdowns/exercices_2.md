@@ -9,7 +9,7 @@ On utilisera une (et une seule) variable supplémentaire nommée d.
 
 # Exercice 2.2
 On désire écrire un algorithme qui reçoit une 
-valeur représentant une somme d'argent et qui calcule le nombre de billets de 100 Euros, 50 Euros , 20 Euos  10 Euros, et de pièces de 2 Euros et 1 Euro qu'elle représente.
+valeur représentant une somme d'argent et qui calcule le nombre de billets de 100 Euros, 50 Euros , 20 Euros  10 Euros, et de pièces de 2 Euros et 1 Euro qu'elle représente.
 
 
 Par exemple pour montant  = 325 
