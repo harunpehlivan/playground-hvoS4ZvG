@@ -38,9 +38,10 @@ Créer une classe Ghost
 Les objets fantômes sont instanciés sans arguments.
 
 Les objets fantômes reçoivent un attribut de couleur aléatoire "blanc" ou "jaune" ou "violet" ou "rouge" lorsqu'ils sont instanciés
-
+```
 Ghost ghost = new Ghost();
 ghost.getColor(); //=> "white" or "yellow" or "purple" or "red"
+```
 @[4.4]({"stubs": ["src/main/java/com/yourself/POO1/Ghost.java"], "command": "com.yourself.POO1.GhostTest#test"})
 
 
@@ -64,7 +65,7 @@ Pensez à un moyen de stocker les langues en tant que base de données (par exem
 Ecrivez une fonction 'welcome' qui prend un paramètre 'language' (toujours une chaîne), et retourne un message d'accueil - si vous l'avez dans votre base de données. Il devrait par défaut à l'anglais si la langue n'est pas dans la base de données, ou dans le cas d'une entrée invalide.
 
 Base de donnée
-
+```
 english: "Welcome",
 czech: "Vitejte",
 danish: "Velkomst",
@@ -82,6 +83,6 @@ polish: "Witamy",
 spanish: "Bienvenido",
 swedish: "Valkommen",
 welsh: "Croeso"
-
+```
 
 @[4.6]({"stubs": ["src/main/java/com/yourself/POO1/Welcome.java"], "command": "com.yourself.POO1.WelcomeTest#test"})

@@ -26,7 +26,7 @@ public class TwoferTest {
     }
 
     @Test
-    public void Test() {
+    public void test() {
         String input = null;
         String expected = "One for you, one for me.";
 

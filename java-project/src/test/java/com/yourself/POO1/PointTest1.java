@@ -14,7 +14,7 @@ public class PointTest1 {
         try {
             Point p = new Point('p',3.0);
             Assert.assertEquals("p",p.getNom());
-            Assert.assertEquals(3.0,p.getValue());
+            Assert.assertEquals(3.0,p.getValue(),0);
 
         } catch (AssertionError ae) {
             success(false);
