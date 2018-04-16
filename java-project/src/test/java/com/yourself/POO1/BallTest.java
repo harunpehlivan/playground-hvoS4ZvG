@@ -1,6 +1,6 @@
 package com.yourself.POO1;
 
-import com.yourself.exoPart1.exo1_5;
+
 import org.junit.Assert;
 import org.junit.Test;
 
