@@ -23,7 +23,7 @@ public class exo2_2Test {
             boolean hasWhile = libUtil.existsInFile("while",new File("src/main/java/com/yourself/exoPart1/exo2_2.java"));
             Assert.assertEquals("NO While",hasWhile,false);
              Assert.assertEquals("pour 325", "3 0 1 0 2 1", exo2_2.calc(325));
-           Assert.assertEquals("pour 0", "0 0 0 0 0 0", exo2_2.calc(325));
+           Assert.assertEquals("pour 0", "0 0 0 0 0 0", exo2_2.calc(0));
 
         } catch (AssertionError ae) {
             success(false);
